@@ -1,7 +1,7 @@
 init = function()
   {
     console.log("init!");
-    $("title").text("nuovo");
+    $("title").text("Dettaglio Drone");
   }
 
 
