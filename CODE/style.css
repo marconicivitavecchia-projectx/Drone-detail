@@ -2,5 +2,63 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+  
+}
+body {
+       background: darkolivegreen;
+}
+img{
+    width: 60%;
+    height: 40%;
+}
+.png-table{
+       margin-top: 5%;
+       margin-left: 20%;
+       border-collapse: collapse;
+       border-style: ridge;
+       width: 60%;
+       height: 40%;
+       background: rgb(85, 85, 87);
+}
+.st-table{
+       margin-left: 20%;
+       margin-top: 5%;
+       border-collapse: collapse;
+       border-style: ridge;
+       width: 60%;
+       color: rgba(248, 151, 4, 0.945);
+       background: rgb(85, 85, 87);
+}
+.st-tr{
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+}
+.st-tr1{
+    border-style: ridge;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    background: rgb(0, 0, 0);
+}
+.st-tr2{
+    border-style: ridge;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    background: rgb(0, 0, 0);
+}
+.st-tr3{
+    border-style: ridge;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    background: rgb(0, 0, 0);
+}
+.st-tr4{
+    border-style: ridge;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    background: rgb(0, 0, 0);
 }
