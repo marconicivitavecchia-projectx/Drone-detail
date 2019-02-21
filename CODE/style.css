@@ -5,60 +5,117 @@
   
 }
 body {
-       background: rgb(7, 22, 105);
+       background: rgb(25, 49, 180);
 }
 img{
     width: 60%;
     height: 40%;
 }
+.menù{
+    border-collapse: collapse;
+    border-style: ridge;
+    float: left;
+    width: 15%;
+    background: rgb(185, 185, 190);
+}
+.link{
+    border-collapse: collapse;
+    border-style: solid;
+    height: 40px;
+    margin-top: 1%;
+    padding-top: 6%;
+    padding-left: 2%
+}
+.i{
+    padding-left: 10%
+}
+.m{
+    padding-left: 5%;
+    padding-top: 1%;
+}
 .png-table{
+       
        margin-top: 5%;
        margin-left: 25%;
        border-collapse: collapse;
        border-style: ridge;
-       width: 60%;
+       width: 50%;
        height: 40%;
-       background: rgb(85, 85, 87);
+       background: rgb(185, 185, 190);
 }
 .st-table{
        margin-left: 25%;
        margin-top: 5%;
        border-collapse: collapse;
        border-style: ridge;
-       width: 60%;
-       color: rgb(248, 244, 4);
-       background: rgb(85, 85, 87);
+       width: 50%;
+       color: rgb(26, 107, 182);
+       background: rgb(185, 185, 190);
 }
 .st-tr{
     margin-top: 1%;
     margin-left: 40%;
     margin-bottom: 2%;
 }
-.st-tr1{
+.stanza{
     border-style: ridge;
-    margin-left: 0.5%;
-    margin-right: 10%;
-    margin-bottom: 0.5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 1%;
     background: rgb(0, 0, 0);
 }
-.st-tr2{
+.elemento{
+    width: 450px;
+    float: left;
+}
+.valore{
+    width: 142px;
+    float: left;
+}
+.bottone{
+    width: 50px;
+}
+.oggetto{
     border-style: ridge;
-    margin-left: 0.5%;
-    margin-right: 10%;
-    margin-bottom: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
     background: rgb(0, 0, 0);
 }
-.st-tr3{
+.ogg1{
+    width: 50%;
+    float: left;
+}
+.ogg2{
+    margin-left: 70%;
+}
+.connessione{
     border-style: ridge;
-    margin-left: 0.5%;
-    margin-right: 10%;
-    margin-bottom: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
     background: rgb(0, 0, 0);
 }
-.st-tr4{
+.conn1{
+    width: 50%;
+    float: left;
+
+}
+.conn2{
+    margin-left: 70%;
+}
+.batteria{
     border-style: ridge;
-    margin-left: 0.5%;
-    margin-right: 10%;
-    margin-bottom: 0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
     background: rgb(0, 0, 0);
+}
+.batt1{
+    width: 50%;
+    float: left;
+
+}
+.batt2{
+    margin-left: 70%;
 }
