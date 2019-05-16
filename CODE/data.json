@@ -1,6 +1,6 @@
 {
-    "Stanza": "cucina",
-    "Oggetto": "libero",
-    "Connessione": "offline",
-    "Batteria": 70
+    "stanza": "bagno",
+    "oggetto": "libero",
+    "connessione": "offline",
+    "batteria": 70
 }
