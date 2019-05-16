@@ -2,7 +2,7 @@ app = {
   init : function() {
       console.log("init inside app!");
       $("title").text("New title");
-      $.get("data.json")
+      $.getJSON("data.json")
       .done(app.onSuccess)
       .fail(app.onError);
       
