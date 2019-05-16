@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 "stanza":{
     "stanza":"cucina"
+=======
+{
+    "Stanza": "cucina",
+    "Oggetto": "libero",
+    "Connessione": "offline",
+    "Batteria": 70
+>>>>>>> 1c99fb50fd266acc27b4640786f09bb3006e8d8a
 }

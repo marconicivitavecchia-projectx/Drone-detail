@@ -27,7 +27,8 @@ img{
     padding-left: 2%;
 }
 .i{
-    padding-left: 10%
+    text-align: center;
+    display: inline-block;
 }
 .m{
     padding-left: 5%;
@@ -42,6 +43,7 @@ img{
        width: 50%;
        height: 40%;
        background: rgb(185, 185, 190);
+       
 }
 .st-table{
        margin-left: 25%;
@@ -49,8 +51,8 @@ img{
        border-collapse: collapse;
        border-style: ridge;
        width: 50%;
-       color: rgb(26, 107, 182);
        background: rgb(185, 185, 190);
+       color: blue;
 }
 .st-tr{
     margin-top: 1%;
@@ -65,15 +67,18 @@ img{
     background: rgb(0, 0, 0);
 }
 .elemento{
-    width: 450px;
+    width: 50%;
     float: left;
+    color: aqua;
 }
 .valore{
-    width: 142px;
+    width: 40%;
     float: left;
+    color: aquamarine;
 }
 .bottone{
-    width: 50px;
+    width: 10%;
+    display: inline-block;
 }
 .oggetto{
     border-style: ridge;
