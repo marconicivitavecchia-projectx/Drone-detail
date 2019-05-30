@@ -13,10 +13,34 @@ app = {
         console.log(location);
         if (location === "salotto") {
             location = "camera";
-        } else {
-            location = "salotto";
+        } else if(location === "camera"){
+            location = "cucina";
+        }
+        else if(location ==="cucina"){
+            location ="bagno";
+        }
+        else{
+            location="salotto";
         }
         let jsonData = JSON.stringify(location);
+        console.log(jsonData);
+        $.ajax({
+            type: "PUT",
+            url: "https://projectx-marconi.firebaseio.com/dronedetail/stanza.json",
+            data: jsonData,
+            contentType: "application/json",
+        }).done(app.onGoSuccess)
+            .fail(app.onError);
+    },
+    push: function () {
+        let transport = $("#oggetto").text();
+        console.log(transport);
+        if (transport === "libero") {
+            transport = "occupato";
+        }else{
+            transport="libero";
+        }
+        let jsonData = JSON.stringify(transport);
         console.log(jsonData);
         $.ajax({
             type: "PUT",
