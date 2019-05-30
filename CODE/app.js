@@ -7,6 +7,7 @@ app = {
             .done(app.onSuccess)
             .fail(app.onError);
         $("#go-button").on("click", app.go);
+        $("#push-button").on("click", app.push);
     },
     go: function () {
         let location = $("#stanza").text();
@@ -44,7 +45,7 @@ app = {
         console.log(jsonData);
         $.ajax({
             type: "PUT",
-            url: "https://projectx-marconi.firebaseio.com/dronedetail/stanza.json",
+            url: "https://projectx-marconi.firebaseio.com/dronedetail/oggetto.json",
             data: jsonData,
             contentType: "application/json",
         }).done(app.onGoSuccess)
